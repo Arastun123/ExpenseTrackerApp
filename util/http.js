@@ -9,7 +9,6 @@ export async function storeExpense(expenseData) {
 
 export async function fetchExpenses() {
     const response = await axios.get(BACKEND_URL + '/expense');
-    console.log('reposne', response);
     const expenses = [];
 
     for (const key in response.data) {

@@ -44,7 +44,7 @@ function ExpenseOverView() {
         }}
       />
       <BottomTabs.Screen
-        name='AllExpense'
+        name='AllExpenses'
         component={AllExpenses}
         options={{
           title: 'All Expenses',
